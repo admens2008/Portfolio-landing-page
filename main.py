@@ -9,7 +9,7 @@ from flask import *
 app = Flask(__name__)
 
 
-@app.route('/', strict_slashes=False)
+@app.route('/portfolio', strict_slashes=False)
 def hello_hbnb():
     """ Hello HBNB! output for hello route /"""
     return render_template("index.html")
